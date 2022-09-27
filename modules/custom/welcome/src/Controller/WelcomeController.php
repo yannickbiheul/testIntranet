@@ -9,11 +9,6 @@ class WelcomeController
     {
         $element = array('#markup' => 'Mon premier module sur Drupal 9');
         return $element;
-        // $build = [
-        //     '#type' => 'markup',
-        //     '#markup' => $this->t('Salut Monde !'),
-        // ];
-        // return buid;
     }
 }
 

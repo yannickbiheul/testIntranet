@@ -6,4 +6,3 @@ welcome.page:
     _title: 'Salut monde !'
   requirements:
     _permission: 'access content'
-    # _access_update_manager: 'TRUE'
