@@ -1,0 +1,6 @@
+name: Welcome
+core_version_requirement: ^8 || ^9
+core: 8.x
+type: module
+package: Mes Modules
+description: Affichage d'un message de bienvenue

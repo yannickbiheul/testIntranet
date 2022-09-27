@@ -1,0 +1,9 @@
+#Route for Welcome Page
+welcome.page:
+  path: /welcome_page
+  defaults:
+    _controller: '\Drupal\welcome\Controller\WelcomeController::Welcome'
+    _title: 'Salut monde !'
+  requirements:
+    _permission: 'access content'
+    # _access_update_manager: 'TRUE'
