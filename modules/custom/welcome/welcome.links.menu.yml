@@ -1,0 +1,5 @@
+welcome.page_menu:
+  title: 'Welcome'
+  description: 'Lien vers Welcome'
+  route_name: welcome.page
+  menu_name: main

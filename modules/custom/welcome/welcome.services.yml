@@ -1,0 +1,3 @@
+services:
+  welcome.date:
+    class: Drupal\welcome\Service\Date
