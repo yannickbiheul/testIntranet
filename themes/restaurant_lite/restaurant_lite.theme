@@ -1560,7 +1560,7 @@ function restaurant_lite_form_alter(&$form, FormStateInterface $form_state, $for
       $form[$key]['submit']['#attributes'] = new Attribute();
     }
     $form[$key]['submit']['#attributes']->addClass('search-form__submit');
-    $form['keys']['#attributes']['placeholder'] = t('Search...');
+    $form['keys']['#attributes']['placeholder'] = t('Rechercher');
   }
 }
 

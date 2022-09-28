@@ -1,0 +1,8 @@
+name: Intranet du CHIC
+type: theme
+description: 'Site intranet du CHIC pour le centre Hospitalier de Cornouaille'
+core_version_requirement: ^9 || ^10
+base theme: classy
+package: custom
+version: VERSION
+screenshot: screenshot.png
