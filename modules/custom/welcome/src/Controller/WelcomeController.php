@@ -36,8 +36,9 @@ class WelcomeController extends ControllerBase
     {
         // L'injection de dépendance se fait grâce à "\Drupal::service".
         $serviceDate = \Drupal::service('welcome.date');
-        $difference = $serviceDate->differenceDate("2020-04-26", "2020-07-11");
-        $element = array('#markup' => 'Mon premier module sur Drupal 9, la différence entre le 26 avril et le 11 juillet est de : ' . $difference . ' jours.');
+        $dateNaissance = \Drupal::config("dates.settings")->get("date_naissance");
+        $difference = $serviceDate->differenceDate('1981-12-16');
+        $element = array('#markup' => 'Mon premier module sur Drupal 9, j\'ai ' . $difference . ' jours, ma date de naissance est le : ' . $dateNaissance);
         return $element;
     }
 }

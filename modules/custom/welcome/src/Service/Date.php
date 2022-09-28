@@ -13,10 +13,10 @@ class Date
      * @param $date2
      * @return mixed
      */
-    public function differenceDate($date1, $date2)
+    public function differenceDate($date1)
     {
-        $debut = new \DateTime($date1);
-        $fin = new \DateTime($date2);
-        return $fin->diff($debut)->format("%a");
+        $today = new \DateTime();
+        $naissance = new \DateTime($date1);
+        return $today->diff($naissance)->format("%a");
     }
 }
