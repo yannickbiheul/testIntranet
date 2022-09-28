@@ -7,6 +7,7 @@
 .region--white-background {
   background-color: #ffffff;
 }
+
 .region--gray-background {
   background-color: #f4f4f4;
 }
@@ -101,7 +102,7 @@
 
 /*Regions spacing*/
 .banner {
-  padding: 70px 0 80px;
+  padding: 70px 0 80px !important;
 }
 .content-top__section {
   padding: 70px 0 80px;
